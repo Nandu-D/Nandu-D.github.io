@@ -1,28 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="description" content="Website of Nandu Dharmapalan with resume and contact information"/>
 <meta name="keywords" content="Nandu Dharmapalan, resume, contact"/>
 <meta name="author" content="Nandu Dharmapalan" />
-<title>Nandu Dharmapalan's website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="./styles/index.css" />
+<!-- Fonts -->
+<style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');</style>
+<title>Nandu Dharmapalan</title>
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-toggleable-sm navbar-expand-md navbar-dark navbar-inverse pl-md-0 pl-sm-5">
+      <div class="container">
+        <button class="navbar-toggler border navbar-dark" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a href="./index.html" class="nav-item nav-link active">Home</a>
+            <a href="./about.html" class="nav-item nav-link">About</a>
+            <a href="./contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
   <main>
-    <h1>Contact Me</h1>
-    <form action="/" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name"><br>
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email"><br>
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject"><br>
-      <label for="content">Message</label>
-      <textarea id="content" name="content" rows="8" cols="100"></textarea><br>
-      <button type="submit" name="contact">Send Message</button>
-    </form>
+    <div class="jumbotron jumbotron-fluid text-white pt-2">
+      <div class='container'>
+        <h4 class="text-muted" id="hi_my_name_is">Hi, my name is </h4>
+        <h1 class="h1">Nandu Dharmapalan</h1>
+        <h1 class="h1" id="subtitle">I am a builder of websites and mobile applications</h1>
+        <p class="lead" id="subtitile_caption">I am passionate about Android, React Native, iOS, Angular, React, Flask and Django</p>
+      </div>
+    </div>
+
+    <!-- Card Grid -->
+    <div class="container">
+      <!-- First Row - Android, React Native, React, Angular -->
+      <div class="row">
+        <!-- Android -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow">
+              <img src="images/android_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+              <div class="card-block py-2">
+                <h3 class="card-title text-center text-white">Android</h3>
+              </div>
+            </div>
+        </div>
+        <!-- React Native -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/react_native_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">React Native</h3>
+            </div>
+          </div>
+        </div>
+        <!-- React -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow h-100 d-flex flex-column">
+            <img src="images/react_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2 mt-auto">
+              <h3 class="card-title text-center text-white">React</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Angular -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/angular_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">Angular</h3>
+            </div>
+          </div>
+        </div>
+      <!-- Second Row - iOS, Django, Flask, Java -->
+        <!-- iOS -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/ios_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">iOS</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Django -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow">
+              <img src="images/django_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+              <div class="card-block py-2">
+                <h3 class="card-title text-center text-white">Django</h3>
+              </div>
+            </div>
+        </div>
+        <!-- Flask -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/flask_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">Flask</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Java -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/java_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">Java</h3>
+            </div>
+          </div>
+        </div>
+      <!-- Third Row - JavaScript, C++, Swift, Python -->
+        <!-- JavaScript -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/Javascript_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">JavaScript</h3>
+            </div>
+          </div>
+        </div>
+        <!-- C++ -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow">
+              <img src="images/CPlusPlus_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+              <div class="card-block py-2">
+                <h3 class="card-title text-center text-white">C++</h3>
+              </div>
+            </div>
+        </div>
+        <!-- Swift -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/swift_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">Swift</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Python -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/python_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">Python</h3>
+            </div>
+          </div>
+        </div>
+      <!-- Forth Row - C, MySQL, HTML, CSS -->
+        <!-- c -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/c_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">C</h3>
+            </div>
+          </div>
+        </div>
+        <!-- MySQL -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow">
+              <img src="images/mysql_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+              <div class="card-block py-2">
+                <h3 class="card-title text-center text-white">MySQL</h3>
+              </div>
+            </div>
+        </div>
+        <!-- HTML -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/HTML5_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">HTML</h3>
+            </div>
+          </div>
+        </div>
+        <!-- CSS -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="card shadow">
+            <img src="images/CSS3_image.png" class="card-image-top image-fluid m-1" alt="Android Logo">
+            <div class="card-block py-2">
+              <h3 class="card-title text-center text-white">CSS</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Capabilities nav -->
+    <div class="container">
+      <h2 class="display-4 text-center py-4 my-2">Capabilities</h2>
+      <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a href="#multitasking" class="nav-link active" data-toggle="tab">Multitasking</a>
+        <a href="#teamwork" class="nav-link" data-toggle="tab">Teamwork</a>
+        <a href="#attention_to_detail" class="nav-link" data-toggle="tab">Attention to detail</a>
+      </nav>
+      <div class="tab-content py-5">
+        <div class="tab-pane active" id="multitasking">
+          <h3>Multitasking</h3>
+          <p>Excellent in managing different tasks by prioritizing them based on deadlines, dependencies and expectations</p>
+        </div>
+        <div class="tab-pane" id="teamwork">
+          <h3>Teamwork</h3>
+          <p>Comfortable working closely with others, collaborate with the team, discuss challenges or problems that may come up, resolve and compromise on issues with the health of the team and the project taking the centre stage</p>
+        </div>
+        <div class="tab-pane" id="attention_to_detail">
+          <h3>Attention to detail</h3>
+          <p>Give a lot of importance to coding standards, utilizing version control system and in analyzing and maintaining existing code</p>
+        </div>
+      </div>
+    </div>
   </main>
+  <footer class="py-4">
+    <p class="container text-left">Designed and built by Nandu Dharmapalan</p> 
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
