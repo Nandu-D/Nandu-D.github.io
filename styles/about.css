@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+}
+body {
+    min-height: 100vh; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.jumbotron, .navbar {
+    background-color: #563d7c;
+}
+
+.h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+footer, footer > p {
+    background: #776396;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+}
